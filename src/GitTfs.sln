@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{15A283E3-44EA-47DE-B1BD-B93CC8C08900}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
@@ -12,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTfsTest", "GitTfsTest\GitTfsTest.csproj", "{DDFB4746-2BCE-4B34-8E45-056324CF140D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTfs.VsFake", "GitTfs.VsFake\GitTfs.VsFake.csproj", "{20C411E8-49C7-11E1-A776-3FE84824019B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTfs.Vs2012", "GitTfs.Vs2012\GitTfs.Vs2012.csproj", "{699CE23D-8BBD-4C15-82E9-7A628ACCA4C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{4A46FEEE-B8A2-4445-B9D1-8160520C7301}"
 	ProjectSection(SolutionItems) = preProject
@@ -65,21 +65,18 @@ Global
 		{20C411E8-49C7-11E1-A776-3FE84824019B}.Debug|AnyCPU.Build.0 = Debug|Any CPU
 		{20C411E8-49C7-11E1-A776-3FE84824019B}.Release|AnyCPU.ActiveCfg = Release|Any CPU
 		{20C411E8-49C7-11E1-A776-3FE84824019B}.Release|AnyCPU.Build.0 = Release|Any CPU
-		{699CE23D-8BBD-4C15-82E9-7A628ACCA4C6}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
-		{699CE23D-8BBD-4C15-82E9-7A628ACCA4C6}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
-		{699CE23D-8BBD-4C15-82E9-7A628ACCA4C6}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
-		{699CE23D-8BBD-4C15-82E9-7A628ACCA4C6}.Release|AnyCPU.Build.0 = Release|AnyCPU
-		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
-		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
-		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
-		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{101D3C78-27CC-446A-98EC-E2DE88BF0641}.Release|AnyCPU.Build.0 = Release|Any CPU
 		{A7032F30-2C86-4BAF-8F62-33EB7BA917AF}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
 		{A7032F30-2C86-4BAF-8F62-33EB7BA917AF}.Debug|AnyCPU.Build.0 = Debug|Any CPU
 		{A7032F30-2C86-4BAF-8F62-33EB7BA917AF}.Release|AnyCPU.ActiveCfg = Release|Any CPU
 		{A7032F30-2C86-4BAF-8F62-33EB7BA917AF}.Release|AnyCPU.Build.0 = Release|Any CPU
-		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
-		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
-		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Release|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Release|AnyCPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
