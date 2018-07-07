@@ -509,6 +509,8 @@ namespace GitTfs.Core
             var commitSha = Commit(log);
             UpdateTfsHead(commitSha, changeset.Summary.ChangesetId);
             StringBuilder metadatas = new StringBuilder();
+            metadatas.Append("Link to TFS web: " + TfsUrl + @"/_versionControl/changeset/" + log.ChangesetId);
+
             if (changeset.Summary.Workitems.Any())
             {
                 string workitemNote = "Workitems:\n";
