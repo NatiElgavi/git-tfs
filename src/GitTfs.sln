@@ -47,6 +47,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{7E25ACEF
 		build.ps1 = build.ps1
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetAuthors", "GetAuthors\GetAuthors.csproj", "{AFA013BD-DF47-441C-98B3-32C2F5BCC261}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AnyCPU = Debug|AnyCPU
@@ -77,6 +79,10 @@ Global
 		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Debug|AnyCPU.Build.0 = Debug|Any CPU
 		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Release|AnyCPU.ActiveCfg = Release|Any CPU
 		{0A4AED21-360F-40CC-8870-B4D106B34CC1}.Release|AnyCPU.Build.0 = Release|Any CPU
+		{AFA013BD-DF47-441C-98B3-32C2F5BCC261}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{AFA013BD-DF47-441C-98B3-32C2F5BCC261}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{AFA013BD-DF47-441C-98B3-32C2F5BCC261}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{AFA013BD-DF47-441C-98B3-32C2F5BCC261}.Release|AnyCPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
